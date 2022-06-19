@@ -44,3 +44,16 @@ c *= b # 3 : c = c * b를 간추린 것
 c /= b # 몰루 : c = c / b를 간추린 것
 c %= b # 1 : c = c % b를 간추린 것
 c **= b # 9 : c = c ** b를 간추린 것
+
+# 숫자 처리 함수
+print(abs(-5)) # 5 : 절댓값
+print(pow(4, 2)) # 4^2 = 4*4 = 16 : 거듭제곱
+print(max(5, 12)) # 12 : 입력받은 값들 중 가장 큰 값
+print(min(5, 12)) # 5 : 입력받은 값들 중 가장 작은 값
+print(round(3.14)) # 3 : 반올림
+print(round(3.99)) # 4 : 반올림
+
+from math import *
+print(floor(4.99)) # 4 : 내림
+print(ceil(3.14)) # 4 : 올림
+print(sqrt(16)) # 4 : 제곱근
