@@ -5,14 +5,10 @@
 #변수값 : "사당", "신도림", "인천공항" 순서대로 입력
 #출력 문장 : XX행 열차가 들어오고 있습니다.
 
-station = "사당"
-print(station, "행 열차가 들어오고 있습니다.")
+station = ["사당", "신도림", "인천공항"]
 
-station = "신도림"
-print(station, "행 열차가 들어오고 있습니다.")
-
-station = "인천공항"
-print(station, "행 열차가 들어오고 있습니다.")
+for i in range(1, 4):
+    print(*station[i-1:i], "행 열차가 들어오고 있습니다.")
 
 """
 2.Quiz) 당신은 최근에 스터디 모임을 새로 만들었습니다.
